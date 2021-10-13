@@ -1,0 +1,20 @@
+.last-line{
+    background-color: rgb(102, 43, 43);
+}
+.table{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+}
+h1{
+    margin-left: 10%;
+    margin-top: 70px;
+}
+body{
+    background-image: url("images/concierge1\ \(3\).jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.table-dark{
+    background-color: #052e56d4;
+}
