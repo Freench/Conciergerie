@@ -7,8 +7,10 @@
     margin-top: 40px;
 }
 h1{
-    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 70px;
+    text-align: right;
+    color: #052d56c7;
 }
 body{
     background-image: url("images/concierge1\ \(3\).jpg") ;

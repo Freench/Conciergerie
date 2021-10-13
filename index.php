@@ -10,7 +10,7 @@
 </head>
 <body>
     <h1>Gestionnaire de la conciergerie</h1>
-    <form method="get" action="/">
+    <form method="get" action="./">
     <table class="table table-striped table-dark">
         <thead>
             <tr>
@@ -53,7 +53,7 @@
         </tbody>
     </table>
     </form>
-    <form id="form-modify" method="get" action="/">
+    <form id="form-modify" method="get" action="./">
         <table class="table table-striped table-dark">
             <thead>
                 <tr>
@@ -61,7 +61,7 @@
                     <th scope="col">Intervention</th>
                     <th scope="col">Date</th>
                     <th scope="col">Etage</th>
-                    <th scope="col">Supprimer</th>
+                    <th scope="col">Ajouter</th>
                     <th scope="col">Modifier</th>
                     <th scope="col">Sélectionner</th>
                 </tr>
@@ -81,6 +81,7 @@
     </form>
 
     <?php
+
     function connect(){
         $servername = 'localhost';
         $username = 'francisp';
